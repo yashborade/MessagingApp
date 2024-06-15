@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.ConsumerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-06-15T05:41:43" hostname="Yashs-MacBook-Air.local" time="2.062">
+  <properties/>
+  <testcase name="testProcessMessageSuccess()" classname="org.example.ConsumerTest" time="1.046"/>
+  <testcase name="testProcessMessageError()" classname="org.example.ConsumerTest" time="1.011"/>
+  <system-out><![CDATA[2024-06-15T11:11:43.664 INFO: Consumed: Test message
+]]></system-out>
+  <system-err><![CDATA[2024-06-15T11:11:44.693 ERROR: Error processing message: Test message with error - Processing error
+]]></system-err>
+</testsuite>
